@@ -1,0 +1,43 @@
+
+.modal-window {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) scale(1);
+	width: 528px;
+	height: 581px;
+	background-color: var(--primary-bg-color);
+	border-radius: 4px;
+	transition: transform var(--animation-timer) var(--animation-cube);
+}
+
+.modal-btn {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 8px;
+	right: 8px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	background-color: var(--primary-bg-color);
+	cursor: pointer;
+}
+
+.icon-close {
+	width: 18px;
+	height: 18px;
+	fill: currentColor;
+	transition: fill var(--animation-timer) var(--animation-cube);
+}
+
+.modal-btn:hover .icon-close,
+.modal-btn:focus .icon-close {
+	fill: var(--accent-color);
+}
+
+.modal-form {
+	padding: 40px;
+}
