@@ -1,6 +1,5 @@
-
 .product {
-	// .product__items
+	// .product
 
 	&__items {
 		display: flex;
@@ -65,7 +64,7 @@
 	// .product__title
 
 	&__title {
-    @include font(18px, 36px, 0.06em);
+		@include font(18px, 36px, 0.06em);
 		color: var(--title-primary-color);
 		margin-bottom: 4px;
 	}
@@ -73,6 +72,6 @@
 	// .product__category
 
 	&__category {
-    @include font(16px, 30px, 0.03em);
+		@include font(16px, 30px, 0.03em);
 	}
 }
